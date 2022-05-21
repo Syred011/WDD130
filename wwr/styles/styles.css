@@ -1,0 +1,81 @@
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #fcfbfb; 
+}
+nav a {
+    text-align: center;
+    background-color: #fcfbfb;
+    color: #455764;
+    text-decoration: none;
+
+}
+
+h1 {
+    text-align: center;
+} 
+h2 {
+    background-color: #83b3d3;
+    color: #455764;
+}
+h3 {
+    text-align: center;
+    background-color: #fcfbfb;
+    color: #455764;
+    text-decoration: underline;
+}
+h4 {
+    text-align: center;
+    background-color: #83b3d3;
+    color: #455764;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+    background-color: #83b3d3;
+}
+header {
+    background-color: #83b3d3; 
+}
+nav a:hover {
+    background-color:  #83b3d3;
+    color: #455764; 
+}
+.book {
+    background-color: #83b3d3; 
+    color: #455764;
+}
+.join {
+    background-color: #83b3d3; 
+    color: #455764;
+}
+.book:hover {
+    background-color: #83b3d3; 
+    color: #455764;
+    text-decoration: underline;
+} 
+.join:hover {
+    background-color: #83b3d3; 
+    color: #455764;
+}
+.msg {
+    background-color: #83b3d3;
+    text-decoration: underline;
+}
+footer {
+    background-color: #83b3d3;
+    color: #455764;
+    text-decoration: underline;
+} 
+.home-title {
+    color: #455764;
+}
+.icon {
+    width: 80px;
+}
