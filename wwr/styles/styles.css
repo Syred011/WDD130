@@ -1,29 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Staatliches&display=swap');
+
 
 body {
     max-width: 1600px;
-    margin: 0 auto;
-    background-color: #fcfbfb; 
+    margin: 0;
+    padding: 0;
+    background-color: #fcfbfb;
+    font-family: 'Patrick Hand';
+    font-size: 22px;
 }
 nav a {
     text-align: center;
     background-color: #fcfbfb;
     color: #455764;
     text-decoration: none;
-
+    font-family: 'Patrick Hand';
+    padding: 35px;
 }
-
+#logo_link {
+    padding-top: 5px;
+}
+.home-title {
+    color: #455764;
+    margin-top: 10px;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
 h1 {
     text-align: center;
+    font-family: 'Staatliches';
+    font-size: 2em;
 } 
 h2 {
+    text-align: center;
     background-color: #83b3d3;
     color: #455764;
+    margin: 0;
 }
 h3 {
-    text-align: center;
+    text-align: left;
     background-color: #fcfbfb;
     color: #455764;
-    text-decoration: underline;
+    
 }
 h4 {
     text-align: center;
@@ -36,6 +56,11 @@ h4 {
 main section {
     text-align: center;
 }
+main section img {
+    max-width: 1600px;
+    text-align: center;
+    box-sizing: border-box
+}
 #background {
     height: 725px;
     background-color: #83b3d3;
@@ -47,18 +72,18 @@ nav a:hover {
     background-color:  #83b3d3;
     color: #455764; 
 }
-.book {
+.book, .join {
     background-color: #83b3d3; 
     color: #455764;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.join {
-    background-color: #83b3d3; 
-    color: #455764;
-}
+
 .book:hover {
     background-color: #83b3d3; 
     color: #455764;
-    text-decoration: underline;
+    text-align: left;
 } 
 .join:hover {
     background-color: #83b3d3; 
@@ -66,16 +91,26 @@ nav a:hover {
 }
 .msg {
     background-color: #83b3d3;
-    text-decoration: underline;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p {
+    padding-bottom: 15px;
 }
 footer {
     background-color: #83b3d3;
     color: #455764;
-    text-decoration: underline;
+    text-align: left;
+    padding: 25px 50px;
+    margin-top: 200px;
 } 
-.home-title {
-    color: #455764;
+.social img {
+    text-align: left;
+    padding-top: 15px;
 }
-.icon {
-    width: 80px;
+.rivers-card, .camping-card, .rapids-card {
+margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
 }
