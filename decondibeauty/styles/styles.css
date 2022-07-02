@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4361ee;
+    font-family: 'Pacifico' cursive;
+    font-size: 22px;
+}
+#content {
+    max-width: 1600px;
+}
