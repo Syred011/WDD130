@@ -10,3 +10,18 @@ body {
 #content {
     max-width: 1600px;
 }
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+h2 {
+    text-align: center;
+    color: #f72585;
+
+}
+.text {
+    text-align: center;
+    color: #4361ee;
+    font-family: "Cedarville Cursive", cursive;
+ }
