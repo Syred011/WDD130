@@ -6,6 +6,8 @@ body {
     background-color: #c4cbec;
     font-family: 'Pacifico' cursive;
     font-size: 22px;
+    text-align: center;
+    align-self: center;
 }
 #content {
     max-width: 1600px;
