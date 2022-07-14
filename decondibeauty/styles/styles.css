@@ -19,17 +19,50 @@ body {
 }
 .logo {
   align-self: center;
+  max-width: 100%;
+  height: auto;
 }
-.img {
+nav {
+  text-align: left;
+  font-family: "Pacifico", Cursive;
+  color: #f72585;
+}
+.editorial-img {
+  max-width: 25%;
+  max-height: 25%;
+}
+.social-img {
+  max-width: 25%;
+  max-height: 25%;
+}
+.wedding-img {
+  max-width: 25%;
+  max-height: 25%;
+}
+
+#courses-img {
   align-items: center;
+  max-width: 50%;
+  max-height: 50%;
+}
+#wedding-1 {
+  align-self: right;
+  max-width: 50%;
+  max-height: 50%;
+}
+#social-1 {
+  align-items: left;
+  max-width: 50%;
+  max-height: 50%;
 }
 h2 {
+    font-family: "Pacifico", Cursive;
     text-align: center;
     color: #f72585;
 
 }
 .text {
-    text-align: center;
+    text-align: auto;
     color: #4361ee;
     font-family: "Cedarville Cursive", cursive;
  }
@@ -37,6 +70,12 @@ h2 {
     display: inline-block;
     cursor: pointer;
   }
+footer {
+  text-align: left;
+  color: #4361ee;
+  font-family: "Pacifico", Cursive;
+}
+
   
 
   
