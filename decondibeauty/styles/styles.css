@@ -17,6 +17,10 @@ body {
     justify-self: center;
     align-self: center;
 }
+#makeup-img {
+  max-width: 25%;
+  max-height: 25%;
+}
 .logo {
   align-self: center;
   max-width: 100%;
