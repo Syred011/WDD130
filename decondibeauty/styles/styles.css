@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Pacifico&display=swap');
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #c4cbec;
+    background-color: #f6e3f1;
     font-family: 'Pacifico' cursive;
     font-size: 22px;
     text-align: center;
@@ -32,32 +32,51 @@ nav {
   color: #f72585;
 }
 .editorial-img {
-  max-width: 25%;
-  max-height: 25%;
+  border: 1px;
+  box-sizing: border-box;
+  float: left;
+  padding: 1em;
+  width: 25%;
 }
 .social-img {
-  max-width: 25%;
-  max-height: 25%;
+  border: 1px;
+  box-sizing: border-box;
+  float: left;
+  padding: 1em;
+  width: 25%;
 }
 .wedding-img {
-  max-width: 25%;
-  max-height: 25%;
+  border: 1px;
+  box-sizing: border-box;
+  float: left;
+  padding: 1em;
+  width: 25%;
 }
 
 #courses-img {
   align-items: center;
-  max-width: 100%;
+  max-width: 70%;
   max-height: 50%;
 }
 #wedding-1 {
-  align-self: right;
-  max-width: 50%;
-  max-height: 50%;
+  border: 1px;
+  box-sizing: border-box;
+  float: left;
+  padding: 1em;
+  width: 50%;
 }
 #social-1 {
-  align-items: left;
-  max-width: 50%;
-  max-height: 50%;
+  border: 1px;
+  box-sizing: border-box;
+  float: right;
+  padding: 1em;
+  width: 50%;
+}
+#makeup-img {
+  width: 25%;
+  height: 25%;
+  margin: 50px;
+
 }
 h2 {
     font-family: "Pacifico", Cursive;
@@ -66,20 +85,22 @@ h2 {
 
 }
 .text {
-    text-align: auto;
-    color: #4361ee;
-    font-family: "Cedarville Cursive", cursive;
- }
+  text-align: center;
+  color: #4361ee;
+  font-family: "Edu QLD Beginner", cursive;
+}
+h3 {
+  text-align: left;
+}
  .container {
     display: inline-block;
     cursor: pointer;
   }
 footer {
   text-align: left;
-  color: #4361ee;
+  color: #f72585;
   font-family: "Pacifico", Cursive;
+  bottom: 0px;
+  width: 600px;
+  
 }
-
-  
-
-  
