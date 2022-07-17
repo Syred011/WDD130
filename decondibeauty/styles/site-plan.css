@@ -38,6 +38,9 @@ body {
   font-size: 18px;
   text-align: center;
 }
+#content {
+  max-width: 1600px;
+}
 img {
   display: block;
   margin: 0 auto;
